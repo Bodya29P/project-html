@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(235, 17, 82);
+}
+
+h2 {
+    color: rgb(36, 145, 14) ;
+}
+
+b {
+    color: rgb(29, 26, 13);
+}
+
+p {
+    color: rgb(175, 103, 9);
+}
+
+nav ul li a {
+    color: rgb(144, 55, 228);
+}
+
+.send {
+    color: rgb(144, 55, 228);
+}
