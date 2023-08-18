@@ -1,0 +1,270 @@
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-bottom: 1px solid #828282;
+}
+header nav {
+  width: 496px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+header nav ul li .link {
+  color: #070707;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+header nav ul li a {
+  color: #828282;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  text-decoration: unset;
+}
+
+.home {
+  display: flex;
+  height: 497px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  flex-shrink: 0;
+  margin-top: 12px;
+}
+.home h1 {
+  color: #070707;
+  font-family: Open Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: auto 0;
+}
+
+.about {
+  background: #F6F6F6;
+  height: 500px;
+}
+.about h2 {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 100px 0 50px;
+}
+.about .page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.about .page p {
+  color: #0a0a0a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.skills {
+  display: flex;
+  padding: 0px 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 970px;
+}
+.skills .caption {
+  display: flex;
+  height: 84px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  width: 250px;
+  padding-top: 100px;
+}
+.skills .caption h2 {
+  color: #070707;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.skills .caption p {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.items {
+  display: flex;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+  gap: 97px;
+  flex-shrink: 0;
+  width: 970px;
+  padding-bottom: 100px;
+}
+.items .item {
+  display: flex;
+  height: 230px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  flex-shrink: 0;
+  width: 170px;
+}
+
+.portfolio {
+  background: #F6F6F6;
+  height: 2360px;
+}
+.portfolio h2 {
+  color: #070707;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.portfolio .photos {
+  display: flex;
+  height: 604px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+  width: 970px;
+}
+.portfolio .photos p {
+  color: var(--black, #070707);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.footer {
+  display: flex;
+  height: 400px;
+  padding: 0px 3px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  flex-shrink: 0;
+  width: 970px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer .foot {
+  display: flex;
+  height: 106px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  width: 280px;
+}
+.footer .foot h2 {
+  color: #070707;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.footer .foot p {
+  color: var(--black, #070707);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.footer span {
+  color: #828282;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.socials .pic {
+  display: flex;
+  height: 40px;
+  align-items: flex-start;
+  gap: 50px;
+  width: 310px;
+}
+.socials button {
+  display: flex;
+  height: 44px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  border-radius: 22px;
+  background: #070707;
+}
+.socials button p {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-align: center;
+}
