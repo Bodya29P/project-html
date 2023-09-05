@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="#" method="post" name="contacts">
-        <label><span>Повне ім'я</span>
-            <input type="text" name="name" required>
-        </label>
-        <label><span>Email</span>
-            <input type="email" name="email" required>
-        </label>
-        <label><span>Пароль</span>
-            <input type="password" name="password1" required>
-        </label>
-        <label><span>Пароль ще раз</span>
-            <input type="password" name="password2" required>
-        </label>
-        <div>
-            <span>Стать</span>
-            <label class="sex">
-                <input type="radio" name="sex" value="male" required>чоловіча
-            </label>
-            <label>
-                <input type="radio" name="sex" value="female" required>жіноча
-            </label> 
-        </div>
-        <label><span>Вік</span>
-            <input class="age" type="number" name="age" min="1" max="100" required>
-        </label>
-        <label>
-            <span>Курс</span>
-        <select>
-            <div>
-              <option>Виберіть курс</option>
-              <option>Software developer</option>
-              <option>Computer network architects</option>
-              <option>Web developers</option>
-              <option>Information security analysts</option>
-              <option>Computer systems analysts</option>
-              <option>Database administrators</option>
-            </div>
-        </select>
-        </label>
-        <label><span>Повна адреса</span>
-            <textarea class="area" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
-        </label>
-        <label>
-        <input class="agree" type="checkbox"><span>Я погоджуюсь з обробкою персональних даних</span>
-        </label>
-        <div class="buttons">
-            <button type="reset">Очистити форму</button>
-            <button type="submit">Зареєструватися</button>
-        </div>
-    </form>
+<form action="#" method="post" name="contacts">
+  <label><span>Повне ім'я</span>
+    <input type="text" name="name" required>
+  </label>
+  <label><span>Email</span>
+    <input type="email" name="email" required>
+  </label>
+  <label><span>Пароль</span>
+    <input type="password" name="password1" required>
+  </label>
+  <label><span>Пароль ще раз</span>
+    <input type="password" name="password2" required>
+  </label>
+  <div class="sex">
+    <span>Стать</span>
+    <div class="wrapper">
+      <label class="sex">
+        <input type="radio" name="sex" value="male" required>чоловіча
+      </label>
+      <label>
+        <input type="radio" name="sex" value="female" required>жіноча
+      </label>
+    </div>
+  </div>
+  <label><span>Вік</span>
+    <input class="age" type="number" name="age" min="1" max="100" required>
+  </label>
+  <label>
+    <h3>Курс</h3>
+    <select>
+      <div>
+        <option>Виберіть курс</option>
+        <option>Software developer</option>
+        <option>Computer network architects</option>
+        <option>Web developers</option>
+        <option>Information security analysts</option>
+        <option>Computer systems analysts</option>
+        <option>Database administrators</option>
+      </div>
+    </select>
+  </label>
+  <label><span>Повна адреса</span>
+    <textarea class="area" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+  </label>
+  <label>
+    <input class="agree" type="checkbox"><span>Я погоджуюсь з обробкою персональних даних</span>
+  </label>
+  <div class="buttons">
+    <button type="reset">Очистити форму</button>
+    <button type="submit">Зареєструватися</button>
+  </div>
+</form>
 </body>
 </html>

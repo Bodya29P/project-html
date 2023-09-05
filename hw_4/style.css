@@ -12,6 +12,22 @@ body form {
   border: 2px solid rgb(5, 5, 5);
   border-radius: 20px;
 }
+body form label {
+  display: flex;
+  justify-content: space-between;
+}
+body form div.sex {
+  display: flex;
+  justify-content: space-between;
+}
+body form div.sex .wrapper {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+}
+body form div.sex input {
+  width: 100%;
+}
 body form .buttons {
   width: 100%;
   display: flex;
@@ -20,23 +36,13 @@ body form .buttons {
   padding-top: 10px;
 }
 body form .agree {
-  float: left;
-}
-body form select {
-  width: 130px;
-  margin-left: 127px;
+  width: 20px;
+  height: 20px;
 }
 
-label input {
-  margin-right: 10px;
+label input, label select, label textarea {
   width: 200px;
+  box-sizing: border-box;
 }
 
-label .age {
-  margin-right: 84px;
-  width: 125px;
-}
-
-label .area {
-  margin-left: 82px;
-}
+/*# sourceMappingURL=style.css.map */
